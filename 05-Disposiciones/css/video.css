@@ -13,15 +13,16 @@ html {
     height: 100vh;
     object-fit: cover;
     position: fixed;
+    /*object-fit: cover no comprime ni colapsa, no se redimensiona, sino rellena los espacios*/
 }
 
 .header {
-    height: 100vh;
+    height: 100vh;  /*para que el div ocupe todo el alto*/
     position: relative;
     text-align: center;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: column; /*para que el boton esté abajo*/
+    gap: 10px;  /*espacio entre items*/
     justify-content: center;
     align-items: center;
 }
