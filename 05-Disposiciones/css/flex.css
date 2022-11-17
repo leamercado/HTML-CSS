@@ -2,31 +2,31 @@
 
 .flex {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     background-color: yellow;
-    height: 300px;
-    justify-content: space-around;
-    align-items: flex-end;
-    /* flex-wrap: wrap; */
+    height: 400px;
+    justify-content: center ;
+    align-items: center; /*por defecto es stretch, dimensiona los elementos en toda la altura del contenedor , */
+    flex-wrap: wrap;
 }
 
 .contenido-1 {
     background-color: white;
     /* height: 200px; */
-    width: 100px;
+    width: 250px;
     border: 1px solid blue;
 }
 
 .contenido-2 {
     background-color: white;
     /* height: 200px; */
-    width: 100px;
+    width: 250px;
     border: 1px solid blue;
 }
 
 .contenido-3 {
     background-color: pink;
     /* height: 200px; */
-    width: 100px;
+    width: 250px;
     border: 1px solid blue;
 }

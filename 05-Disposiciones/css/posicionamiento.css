@@ -12,34 +12,37 @@ div {
     margin-left: 10px;
 }
 
-/* Posicionamiento fijo - se posiciona en relación a la pantalla */
+/* Posicionamiento fijo - se posiciona FIJO en relación a la pantalla */
 .fixed {
     position: fixed;
     bottom: 0px;
     left: 0px;
     background-color: greenyellow;
-    z-index: 10;
+    z-index: 10;  /*POR ENCIMA*/
 }
 
-/* Posicionamiento absoluto */
+/* Posicionamiento absoluto, respecto del ELEMENTO PADRE */
 .absolute {
     position: absolute;
-    bottom: 30px;
-    right: 0px;
+    top: 20px;
+    right: 10px;
 }
 
 .relative.contenedor {
     width: 300px;
-    height: 400px;
+    height: 1000px;
     background-color: blue;
 }
 
-/* Posicionamiento "pegajoso" - Al hacer scroll modifica su posicionamiento relative->fixed */
+/* Posicionamiento "pegajoso" - Al hacer scroll modifica su posicionamiento 
+MEZCLA ENTRE  relative  => fixed 
+PARA MENUS, SIEMPRE VISIBLES
+*/
 .sticky {
     position: -webkit-sticky; /* Safari */
     position: sticky; /* IE ni Safari soporta sticky */
     background-color: darksalmon;
     color: white;
     top: 0px;
-    z-index: 2;
+    z-index: 10;
 }
