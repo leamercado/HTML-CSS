@@ -13,11 +13,12 @@ span.frase {
 }
 
 span.frase::before {
-    content: '<< ';
+    content: "<< ";
     font-size: xx-small;
 }
+
 span.frase::after {
-    content: ' >>';
+    content: " >>";
     font-size: xx-small;
 }
 
@@ -32,7 +33,7 @@ span.frase::after {
 }
 
 .libro p::first-line {
-    color: white;
+    color: rgb(82, 82, 82);
 }
 
 .libro p::selection {

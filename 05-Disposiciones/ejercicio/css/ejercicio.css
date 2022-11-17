@@ -32,7 +32,7 @@ h2{
     justify-content:  center;
 }
 
-.image {
+.galeria img {
     width: 300px;
 }
 .image:hover {
