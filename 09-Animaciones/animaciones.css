@@ -10,6 +10,7 @@
     background-color: beige;
     /* transition: transform 1s ease-in 2s; */
     animation: traslacion 4s ease-in-out infinite forwards alternate;
+    
 }
 
 .padre:hover .hijo {
