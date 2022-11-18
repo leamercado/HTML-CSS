@@ -27,7 +27,7 @@ p {
     }
 }
 
-@media (orientation: landscape) and (min-height: 400px) {
+/* @media (orientation: landscape) and (min-height: 400px) {
     p {
         color: brown;
     }
@@ -37,4 +37,4 @@ p {
     h1 {
         color: darksalmon;
     }
-}
+} */
